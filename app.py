@@ -14,7 +14,7 @@ model = joblib.load("phillips_curve_model.pkl")
 hist = pd.read_csv("historical_data.csv")
 
 # Print the columns to your app so you can see exactly how they are spelled
-st.write("Available columns:", hist.columns.tolist())
+#st.write("Available columns:", hist.columns.tolist())
 
 st.title("India Inflation Predictor")
 
