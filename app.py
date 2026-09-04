@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 model = joblib.load("phillips_curve_model.pkl")
-//hist = pd.read_csv("historical_data.csv", index_col="year")
+#hist = pd.read_csv("historical_data.csv", index_col="year")
 # Load without setting the index yet
 hist = pd.read_csv("historical_data.csv")
 
